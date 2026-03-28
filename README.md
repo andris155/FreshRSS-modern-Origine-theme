@@ -28,7 +28,6 @@ Images:
 
 
 You can enable the not read background color by removing this section:
-/*For enable not read background color remove this.*/
 .flux.not_read .flux_header {
     background-color: unset;
 }
