@@ -27,6 +27,7 @@ Images:
 <img width="1093" height="637" alt="feed_option_dark" src="https://github.com/user-attachments/assets/32d7b558-8ad8-42b6-a067-dbf0ebf1fb4f" />
 
 
+
 You can enable the not read background color by removing this section:
 ```
 /*For enable not read background color remove this.*/
