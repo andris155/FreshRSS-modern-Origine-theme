@@ -1,5 +1,11 @@
 # FreshRSS-modern-Origine-theme
-I created a CSS for the FreshRSS to modernize the default Origine theme. The dark and light themes are supported. It is compatible with the latest stable FreshRSS release. The dark theme colors inspired from the Alternative Dark FreshRSS theme.
+I created a CSS code for the FreshRSS to modernize the default Origine theme. The dark and light themes are supported. It is compatible with the latest stable FreshRSS release. The dark theme colors inspired from the Alternative Dark FreshRSS theme.
+
+Usage:
+- Enable the default FreshRSS User CSS extension in the Extensions menu.
+- Click to manage icon next to the toggle button.
+- Paste the CSS code from the style.css file.
+- Click to the Submit button.
 
 <img width="1093" height="633" alt="main_light" src="https://github.com/user-attachments/assets/e70b7c48-c57f-43f1-aa2e-a47c8f2a577f" />
 
