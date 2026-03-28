@@ -1,5 +1,5 @@
 # FreshRSS-modern-Origine-theme
-I created a CSS code for the FreshRSS to modernize the default Origine theme. The dark and light themes are supported. It is compatible with the latest stable FreshRSS release. Some theme colors were inspired by the Alternative Dark FreshRSS theme.
+I created a CSS code for the FreshRSS to modernize the default Origine theme. The dark and light themes are supported. It is compatible with the 1.28.1 FreshRSS release. Some theme colors were inspired by the Alternative Dark FreshRSS theme.
 
 Usage:
 - Enable the default FreshRSS User CSS extension in the Extensions menu.
@@ -25,3 +25,14 @@ Images:
 <img width="1099" height="629" alt="manag_dark" src="https://github.com/user-attachments/assets/2553aac2-fc7e-4e8e-acd2-01eeff7f7b39" />
 
 <img width="1093" height="637" alt="feed_option_dark" src="https://github.com/user-attachments/assets/32d7b558-8ad8-42b6-a067-dbf0ebf1fb4f" />
+
+
+You can enable the not read background color by removing this section:
+/*For enable not read background color remove this.*/
+.flux.not_read .flux_header {
+    background-color: unset;
+}
+
+<img width="1090" height="626" alt="main_light_2" src="https://github.com/user-attachments/assets/569ca9fa-39d6-4e0b-bd99-be0520648204" />
+
+<img width="1085" height="624" alt="main_dark_2" src="https://github.com/user-attachments/assets/4deeae53-cc95-455e-b99f-c717729053b4" />
