@@ -7,6 +7,8 @@ Usage:
 - Paste the CSS code from the style.css file.
 - Click to the Submit button.
 
+Images:
+
 <img width="1093" height="633" alt="main_light" src="https://github.com/user-attachments/assets/e70b7c48-c57f-43f1-aa2e-a47c8f2a577f" />
 
 <img width="1093" height="635" alt="article_light" src="https://github.com/user-attachments/assets/8c7ce453-56ab-4241-8b29-943f905bd02f" />
