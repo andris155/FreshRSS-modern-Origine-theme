@@ -10,6 +10,12 @@ img.favicon {
     margin: 0 0.25rem 0.10rem 0;
 }
 
+@media (max-width: 840px) {
+    .header > .item.title a {
+        padding: unset;
+    }
+}
+
 @media screen and (prefers-color-scheme: light) {
     .aside.aside_feed .category .tree-folder-title:hover .title:not([data-unread="0"])::after {
         background-color: #e5e5e5;
