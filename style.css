@@ -104,6 +104,9 @@ img.favicon {
         --border-color-dark-custom: #2a2a2a;
         --unread-article-background-color-hover: #1a1a1a;
         --unread-article-background-color: #1a1a1a;
+        --alert-error-background-color: #ffffe022;
+        --alert-error-font-color: #ccc;
+        --alert-error-boder-color: #ff786e;
     }
 
     .notification .close:hover .icon {
