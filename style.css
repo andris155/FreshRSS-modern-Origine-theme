@@ -107,6 +107,8 @@ img.favicon {
         --unread-article-background-color: #1a1a1a;
         --alert-error-background-color: #ffffe022;
         --alert-error-font-color: #ccc;
+		--alert-info-font-color: #ccc;
+		--alert-success-font-color: #ccc;
         --alert-error-border-color: #ff786e;
     }
 
