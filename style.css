@@ -66,14 +66,8 @@ img.favicon {
         border: 1px solid var(--border-color);
     }
 
-    .read_all.btn.confirm {
+    .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
         border-left: 1px solid var(--border-color);
-    }
-    
-    @media (max-width: 840px) {
-        #nav_menu_read > a.dropdown-toggle.btn {
-            border-left: 1px solid var(--border-color);
-        }
     }
 
     div.website, div.author, li.item, .tree-folder.active .tree-folder-title .title {
@@ -151,14 +145,8 @@ img.favicon {
         border: 1px solid var(--border-color-dark-custom);
     }
 
-    .read_all.btn.confirm {
+    .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
         border-left: 1px solid var(--border-color-dark-custom);
-    }
-    
-    @media (max-width: 840px) {
-        #nav_menu_read > a.dropdown-toggle.btn {
-            border-left: 1px solid var(--border-color-dark-custom);
-        }
     }
 
     div.website, div.author, li.item, .tree-folder.active .tree-folder-title .title {
@@ -216,18 +204,6 @@ input:focus, select:focus, textarea:focus, input[type="password"]:focus + .toggl
 .article {
 	--font-color-link: #0062be;
 	--font-color-link-hover: #038;
-}
-
-.read_all.btn.confirm {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-
-@media (max-width: 840px) {
-    #nav_menu_read > a.dropdown-toggle.btn {
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-    }
 }
 
 /*For enable not read background color remove this.*/
