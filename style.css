@@ -66,8 +66,10 @@ img.favicon {
         border: 1px solid var(--border-color);
     }
 
-    .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
-        border-left: 1px solid var(--border-color);
+    @media (max-width: 840px) {
+        .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
+            border-left: 1px solid var(--border-color);
+        }
     }
 
     div.website, div.author, li.item, .tree-folder.active .tree-folder-title .title {
@@ -145,8 +147,10 @@ img.favicon {
         border: 1px solid var(--border-color-dark-custom);
     }
 
-    .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
-        border-left: 1px solid var(--border-color-dark-custom);
+    @media (max-width: 840px) {
+        .nav_menu .stick .mark-read-menu .dropdown-toggle.btn {
+            border-left: 1px solid var(--border-color-dark-custom);
+        }
     }
 
     div.website, div.author, li.item, .tree-folder.active .tree-folder-title .title {
