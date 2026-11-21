@@ -1,41 +1,92 @@
-# FreshRSS-modern-Origine-theme
-I created a CSS code for the FreshRSS to modernize the default Origine theme. The dark and light themes are supported. Some theme colors were inspired by the Alternative Dark FreshRSS theme.
+# FreshRSS Modern Origine Theme
 
-Usage:
-- Enable the default FreshRSS User CSS extension in the Extensions menu.
-- Click to manage icon next to the toggle button.
-- Paste the CSS code from the style.css file.
-- Click to the Submit button.
+[![FreshRSS](https://img.shields.io/badge/FreshRSS-Theme-orange?logo=rss&logoColor=white)](https://freshrss.org/)
+[![CSS3](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)](style.css)
+[![Mode](https://img.shields.io/badge/Mode-Light%20%7C%20Dark-555555?logo=darkreader&logoColor=white)](#screenshots)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-Images:
+A clean, modern custom CSS theme for [FreshRSS](https://freshrss.org/) designed to modernize and refine the default **Origine** theme. Supports both **Light** and **Dark** modes with seamless system switching, updated typography contrast, and sleek UI accents inspired by the Alternative Dark FreshRSS theme.
 
-<img width="1093" height="633" alt="main_light" src="https://github.com/user-attachments/assets/e70b7c48-c57f-43f1-aa2e-a47c8f2a577f" />
+---
 
-<img width="1093" height="635" alt="article_light" src="https://github.com/user-attachments/assets/8c7ce453-56ab-4241-8b29-943f905bd02f" />
+## ✨ Features
 
-<img width="1100" height="628" alt="manag_light" src="https://github.com/user-attachments/assets/f4cf5e44-c956-47cb-a9f4-265b79c57fb1" />
+- 🌓 **Automatic Light & Dark Mode** – Fully supports `prefers-color-scheme` and FreshRSS's auto dark mode.
+- 🎨 **Modern Minimalist UI** – Clean flat buttons, borderless shadows, subtle rounded thumbnails (`3px`), and toned-down logos.
+- 📰 **Refined Reading Experience** – Balanced contrast, customized link highlights, and crisp feed item titles.
+- 📱 **Mobile Optimized** – Streamlined header spacing and dropdown borders for viewports under 840px.
+- 🎛️ **Customizable Unread Highlighting** – Easily toggle between flat unread headers or tinted card highlights.
+- ⚡ **Drop-in User CSS** – No file modifications or server restarts required; apply instantly via the FreshRSS User CSS extension.
 
-<img width="1096" height="636" alt="feed_option_light" src="https://github.com/user-attachments/assets/cad52c18-d102-4e72-91a9-9cc90cbb32c7" />
+---
 
+## 📸 Screenshots
 
-<img width="1090" height="633" alt="main_dark" src="https://github.com/user-attachments/assets/c235b56d-a168-4ab7-af2d-548095465287" />
+### Main Feed View
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Main Feed - Light](assets/FreshRSS-theme-main-page-light.png) | ![Main Feed - Dark](assets/FreshRSS-theme-main-page-dark.png) |
 
-<img width="1091" height="637" alt="article_dark" src="https://github.com/user-attachments/assets/7e07d6e8-a389-472d-9c3a-b79a80f01987" />
+### Article View
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Article View - Light](assets/FreshRSS-theme-article-light.png) | ![Article View - Dark](assets/FreshRSS-theme-article-dark.png) |
 
-<img width="1099" height="629" alt="manag_dark" src="https://github.com/user-attachments/assets/2553aac2-fc7e-4e8e-acd2-01eeff7f7b39" />
+### Subscription Management
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Subscription Management - Light](assets/FreshRSS-theme-subscription-management-light.png) | ![Subscription Management - Dark](assets/FreshRSS-theme-subscription-management-dark.png) |
 
-<img width="1093" height="637" alt="feed_option_dark" src="https://github.com/user-attachments/assets/32d7b558-8ad8-42b6-a067-dbf0ebf1fb4f" />
+### Feed Options
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Feed Options - Light](assets/FreshRSS-theme-feed-options-light.png) | ![Feed Options - Dark](assets/FreshRSS-theme-feed-options-dark.png) |
 
+### Optional: Unread Article Background Highlighting
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| ![Unread Background - Light](assets/FreshRSS-theme-main-page-background-color-light.png) | ![Unread Background - Dark](assets/FreshRSS-theme-main-page-background-color-dark.png) |
 
+---
 
-You can enable the not read background color by removing this section:
-```
-/*For enable not read background color remove this.*/
+## 🚀 Installation & Usage
+
+### Prerequisites
+1. FreshRSS installed and running.
+2. Ensure your active FreshRSS theme is set to **Origine** (**Settings** ⚙️ > **Display** > **Theme** > *Origine*).
+
+### Applying via User CSS Extension
+1. Go to **Settings** (⚙️) > **Extensions**.
+2. Enable the **User CSS** (`xExtension-UserCSS`) extension.
+3. Click the **Configure** (⚙️ / manage) icon next to the toggle button.
+4. Open [`style.css`](style.css) in this repository and copy its entire contents.
+5. Paste the CSS code into the User CSS configuration textarea.
+6. Click **Submit** / **Save**.
+
+---
+
+## ⚙️ Customization
+
+### Enable Unread Article Background Color
+By default, unread articles use a subtle, transparent header background. If you prefer unread articles to stand out with a dedicated background color (as shown in the [optional screenshots](#optional-unread-article-background-highlighting)):
+
+Delete or comment out the following lines at the bottom of [`style.css`](style.css):
+
+```css
+/* For enable not read background color remove this. */
 .flux.not_read .flux_header {
     background-color: unset;
 }
 ```
 
-<img width="1090" height="626" alt="main_light_2" src="https://github.com/user-attachments/assets/569ca9fa-39d6-4e0b-bd99-be0520648204" />
+---
 
-<img width="1085" height="624" alt="main_dark_2" src="https://github.com/user-attachments/assets/4deeae53-cc95-455e-b99f-c717729053b4" />
+## 🤝 Contributing
+
+Contributions, feature requests, and suggestions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
